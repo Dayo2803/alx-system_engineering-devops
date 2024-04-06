@@ -10,7 +10,7 @@ frontend haproxy_balancer
     
 backend webservers
     balance roundrobin
-    server 502004-web-01 35.168.2.36:80 check
+    server 502004-web-01 18.204.10.90 check
     server 502004-web-02 52.91.128.47:80 check
 "
 # Update packages
